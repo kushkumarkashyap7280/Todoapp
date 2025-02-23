@@ -1,0 +1,117 @@
+*{
+  margin: 0%;
+  padding: 0;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+body{
+  background-color:dimgray;
+}
+.todo{
+  
+  background-image: url(kk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 99vw;
+  height: 98vh;
+}
+
+.todo h1{
+  color:white;
+}
+@media only screen and (max-width:440px){
+  .area{
+    display: grid;
+    justify-content: center;
+    height: 20vh;
+    justify-items: center;
+    align-items: center;
+  }
+}
+.area input{
+  
+  height: 25px;
+  border: 3px  darkblue solid;
+  border-radius: 5px;
+}
+.area input::placeholder{
+  font-size: larger;
+  font-weight: bolder;
+}
+.area button{
+  position: relative;
+  height: 30px;
+  width: 50px;
+  border: 3px  darkblue solid;
+  border-radius: 5px;
+  background-color: rgb(173, 255, 47);
+}
+.area{
+  margin-bottom: 10px;
+}
+#history{
+  background-position: center;
+  background-size: cover;
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0px 0px 1000px inset;
+  padding-bottom: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 25px;
+  
+  
+
+}
+@media only screen and (max-width:450px) {
+  #history{ 
+
+    border-radius: 10px;
+
+  }
+}
+.task{
+  background-color: transparent;
+  box-shadow: 0px 0px 50px inset;
+  width: 100%;
+  margin:auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.task span{
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#todospan{
+  color: aliceblue;
+  position: relative;
+  left: 0%;
+}
+#delete{
+  background-color: red;
+  height: 30px;
+  width: 100px;
+  border: 3px  darkblue solid;
+  border-radius: 5px;
+  
+
+}
+p{
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: black;
+
+}
